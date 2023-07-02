@@ -1,0 +1,2 @@
+DROP INDEX idx_phone_number_link_precedence
+DROP INDEX idx_email_link_precedence

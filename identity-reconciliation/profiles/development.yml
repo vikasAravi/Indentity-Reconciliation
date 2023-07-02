@@ -1,0 +1,14 @@
+port: "8080"
+log_path: "./"
+log_level: "debug"
+log_location: "./identity-reconciliation.log"
+query_timeout: 1000
+db_host: "database"
+db_port: "5432"
+db_name: "reconciliation_service"
+db_user: "postgres"
+db_password: "password"
+db_max_idle_conn: 100
+db_conn_max_idle_time: 60000
+db_max_open_conn: 500
+
